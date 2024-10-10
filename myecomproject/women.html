@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Section</title>
+    <link rel="stylesheet" href="women.css">
+</head>
+<body>
+    <header>
+        <h1>Women's Section</h1>
+        <nav>
+            <ul>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-list" >
+        <div class="product">
+            <img src="11.jpg" alt="Elegant Dress">
+            <h3>Elegant Dress</h3>
+            <p>$49.99</p>
+            <button onclick="addToCart('Elegant Dress', 49.99,'11.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="12.jpg" alt="Stylish Top">
+            <h3>Stylish Top</h3>
+            <p>$29.99</p>
+            <button onclick="addToCart('Stylish Top', 29.99,'12.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="13.jpg" alt="Floral Skirt">
+            <h3>Floral Skirt</h3>
+            <p>$34.99</p>
+            <button onclick="addToCart('Floral Skirt', 34.99,'13.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="14.jpg" alt="Chic Blouse">
+            <h3>Chic Blouse</h3>
+            <p>$39.99</p>
+            <button onclick="addToCart('Chic Blouse', 39.99,'14.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="15.jpg" alt="Trendy Jeans">
+            <h3>Trendy Jeans</h3>
+            <p>$44.99</p>
+            <button onclick="addToCart('Trendy Jeans', 44.99,'15.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="16.jpg" alt="Fashionable Jacket">
+            <h3>Fashionable Jacket</h3>
+            <p>$59.99</p>
+            <button onclick="addToCart('Fashionable Jacket', 59.99,'16.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="17.jpg" alt="Casual Sneakers">
+            <h3>Casual Sneakers</h3>
+            <p>$49.99</p>
+            <button onclick="addToCart('Casual Sneakers', 49.99,'17.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="18.jpg" alt="Classic Handbag">
+            <h3>Classic Handbag</h3>
+            <p>$89.99</p>
+            <button onclick="addToCart('Classic Handbag', 89.99,'18.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="19.jpg" alt="Pretty Sandals">
+            <h3>Pretty Sandals</h3>
+            <p>$39.99</p>
+            <button onclick="addToCart('Pretty Sandals', 39.99,'19.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="20.jpg" alt="Statement Necklace">
+            <h3>Statement Necklace</h3>
+            <p>$19.99</p>
+            <button onclick="addToCart('Statement Necklace', 19.99,'20.jpg')">Add to Cart</button>
+        </div>
+    </section>
+    <a href="cart.html">View Cart (<span id="cartCount">0</span>)</a>
+
+    <footer>
+        <p>Contact us at: info@fashion-ecommerce.com</p>
+    </footer>
+
+    <script src="women.js"></script>
+</body>
+</html>

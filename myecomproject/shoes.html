@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Section</title>
+    <link rel="stylesheet" href="shoes.css">
+</head>
+<body>
+    <header>
+        <h1>Shoes Section</h1>
+        <nav>
+            <ul>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-list" >
+        <div class="product">
+            <img src="31.jpg" alt="Running Shoes">
+            <h3>Comfort Running Shoes</h3>
+            <p>$49.99</p>
+            <button onclick="addToCart('Comfort Running Shoes', 49.99,'31.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="32.jpg" alt="Casual Sneakers">
+            <h3>Casual Sneakers</h3>
+            <p>$39.99</p>
+            <button onclick="addToCart('Casual Sneakers', 39.99,'32.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="33.jpg" alt="Formal Shoes">
+            <h3>Formal Leather Shoes</h3>
+            <p>$59.99</p>
+            <button onclick="addToCart('Formal Leather Shoes', 59.99,'33.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="34.jpg" alt="Sports Shoes">
+            <h3>Sports Training Shoes</h3>
+            <p>$54.99</p>
+            <button onclick="addToCart('Sports Training Shoes', 54.99,'34.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="35.jpg" alt="Slip-On Shoes">
+            <h3>Slip-On Casual Shoes</h3>
+            <p>$29.99</p>
+            <button onclick="addToCart('Slip-On Casual Shoes', 29.99,'35.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="36.jpg" alt="Hiking Boots">
+            <h3>Durable Hiking Boots</h3>
+            <p>$79.99</p>
+            <button onclick="addToCart('Durable Hiking Boots', 79.99,'36.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="37.jpg" alt="Ballet Flats">
+            <h3>Elegant Ballet Flats</h3>
+            <p>$34.99</p>
+            <button onclick="addToCart('Elegant Ballet Flats', 34.99,'37.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="38.jpg" alt="Winter Boots">
+            <h3>Warm Winter Boots</h3>
+            <p>$89.99</p>
+            <button onclick="addToCart('Warm Winter Boots', 89.99,'38.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="39.jpg" alt="Flip Flops">
+            <h3>Comfortable Flip Flops</h3>
+            <p>$19.99</p>
+            <button onclick="addToCart('Comfortable Flip Flops', 19.99,'39.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="40.jpg" alt="High-Top Sneakers">
+            <h3>Stylish High-Top Sneakers</h3>
+            <p>$44.99</p>
+            <button onclick="addToCart('Stylish High-Top Sneakers', 44.99,'40.jpg')">Add to Cart</button>
+        </div>
+    </section>
+    <a href="cart.html">View Cart (<span id="cartCount">0</span>)</a>
+
+
+    <footer>
+        <p>Contact us at: info@fashion-ecommerce.com</p>
+    </footer>
+
+    <script src="shoes.js"></script>
+</body>
+</html>

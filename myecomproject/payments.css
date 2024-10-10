@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light background color */
+    color: #333; /* Dark text color for contrast */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #008080; /* Teal color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Payment Section Styles */
+.payment-section {
+    background: white; /* White background for the payment section */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 600px; /* Maximum width */
+    margin: auto; /* Center the section */
+}
+
+/* Label Styles */
+label {
+    display: block; /* Block for full width */
+    margin: 10px 0 5px; /* Margin for spacing */
+    font-weight: bold;
+}
+
+/* Select Styles */
+select {
+    width: 100%; /* Full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Input Styles */
+input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+/* Payment Details Div Styles */
+#paymentDetails {
+    margin-top: 20px;
+}
+
+/* Button Styles */
+button {
+    background-color: #008080; /* Teal button */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 1.2em; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+button:hover {
+    background-color: #006666; /* Darker teal on hover */
+}
+
+/* Image Styles */
+#qrCodeImage {
+    width: 100%; /* Responsive QR code image */
+    max-width: 200px; /* Max width */
+    display: block; /* Center alignment */
+    margin: 10px auto; /* Center horizontally */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em; /* Smaller font for footer */
+}

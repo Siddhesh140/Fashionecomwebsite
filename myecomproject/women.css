@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe6f2; /* Light pink background for a feminine vibe */
+    color: #333; /* Standard text color */
+    margin: 0;
+}
+
+header {
+    background-color: #ff4f8e; /* Bright pink header */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff; /* White header text */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff; /* White links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #ffd600; /* Yellow color on hover */
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    background-color: #ffffff; /* White card background */
+    border-radius: 8px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Transition for scaling effect */
+}
+
+.product:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.product h3 {
+    color: #ff4f8e; /* Header color matching the theme */
+    margin: 10px 0;
+}
+
+.product p {
+    font-weight: bold; /* Bold price */
+    color: #007bff; /* Blue for price text */
+}
+
+.product button {
+    background-color: #ff99cc; /* Light pink button color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.product button:hover {
+    background-color: #ff66b2; /* Darker pink on hover */
+    transform: scale(1.05); /* Slight grow on hover */
+}
+
+footer {
+    background-color: #333; /* Dark footer */
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: relative; /* Allows footer to stay at the bottom */
+}

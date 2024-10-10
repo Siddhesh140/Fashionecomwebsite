@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="payments.css">
+</head>
+<body>
+    <header>
+        <h1>Payment Options</h1>
+    </header>
+
+    <section class="payment-section" >
+        <label for="paymentMethod">Select Payment Method:</label>
+        <select id="paymentMethod">
+            <option value="">--Choose a method--</option>
+            <option value="upi">UPI</option>
+            <option value="qr">QR Code</option>
+            <option value="cod">Cash on Delivery</option>
+        </select>
+
+        <div id="paymentDetails" style="display: none;">
+            <div id="upiInput" style="display: none;">
+                <label for="upiId">Enter UPI ID:</label>
+                <input type="text" id="upiId" placeholder="example@upi">
+            </div>
+            <div id="qrPopup" style="display: none;">
+                <h3>Scan the QR Code:</h3>
+                <img src="101.jpeg" alt="QR Code" id="qrCodeImage">
+            </div>
+            <div id="codConfirmation" style="display: none;">
+                <p>Are you sure you want to choose Cash on Delivery?</p>
+            </div>
+            <button id="confirmPaymentButton" style="display: none;">Confirm Payment</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact us at: info@fashion-ecommerce.com</p>
+    </footer>
+
+    <script src="payments.js"></script>
+</body>
+</html>
